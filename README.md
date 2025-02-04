@@ -1,1 +1,2 @@
 # odin-recipes
+With this project, i understood the importance of some tags, elements and attributes used in html by applying them here, where i created a very simple site with one home, having three distinct named links to other webpages created by me with some recipes structured with an image, description, ingredients and steps to follow to complete the dish, to then have at the end the link redirecting back to the home page. 
