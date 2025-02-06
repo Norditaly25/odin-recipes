@@ -1,0 +1,13 @@
+h1 {
+    font-weight: 900;
+    text-align: center;
+    background-color: hwb(240 0% 0%);
+    color: black;
+}
+
+.pizza.egg.madame {
+    background-color: black;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
