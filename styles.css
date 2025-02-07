@@ -1,13 +1,83 @@
-h1 {
-    font-weight: 900;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    background-color: hwb(240 0% 0%);
-    color: black;
 }
 
-.pizza.egg.madame {
-    background-color: black;
-    font-weight: 700;
-    font-family: 'Courier New', Courier, monospace;
+/* Main Title */
+#main-title {
+    background-color: #005f73;
+    color: white;
+    padding: 16px;
+    margin: 0;
+    font-size: 24px;
 }
 
+/* Recipe List */
+.recipe-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.recipe-list li {
+    margin: 10px 0;
+}
+
+/* Recipe Links */
+.recipe-link {
+    display: block;
+    background: #0a9396;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out;
+}
+
+.recipe-link:hover {
+    background: #94d2bd;
+}
+
+/* Recipe Page Styles */
+.recipe-page {
+    background: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Recipe Images */
+.recipe-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Subheadings */
+.recipe-page h2 {
+    color: #005f73;
+}
+
+/* Recipe Lists */
+.recipe-page ul {
+    text-align: left;
+    list-style: square;
+    padding: 10px;
+}
+
+/* Home Link */
+.back-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #005f73;
+}
